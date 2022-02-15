@@ -33,7 +33,7 @@ function SongList() {
 
 const useStyles = makeStyles(theme => ({
     container: {
-        mardin: theme.spacing(3)
+        margin: theme.spacing(3)
     },
     songInfoContainer: {
         display: 'flex',
@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'space-between'
     },
     thumbnail: {
-        objectFit: 'contain',
+        objectFit: 'cover',
         width: 140,
         height: 140
     }
