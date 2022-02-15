@@ -7,7 +7,7 @@ import SongPlayer from './components/SongPlayer';
 
 function App() {
   return (
-    <>
+    <div style={{ width: '95vw' }}>
       <Header />
       <Grid container spacing={3} style={{ paddingTop: '80px' }}>
         <Grid item xs={12} md={7}>
@@ -23,7 +23,7 @@ function App() {
           <SongPlayer />
         </Grid>
       </Grid>
-    </>
+    </div>
   );
 }
 
