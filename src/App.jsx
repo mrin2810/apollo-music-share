@@ -11,11 +11,16 @@ function App() {
       <Header />
       <Grid container spacing={3} style={{ paddingTop: '80px' }}>
         <Grid item xs={12} md={7}>
-          <AddSong xs={5}/>
-          <SongList xs={5}/>
+          <AddSong />
+          <SongList />
         </Grid>
-        <Grid item xs={12} md={5}>
-          <SongPlayer xs={2}/>
+        <Grid style={{
+          position: 'fixed',
+          width: '100%',
+          top: '70px',
+          right: '0'
+        }} item xs={12} md={5}>
+          <SongPlayer />
         </Grid>
       </Grid>
     </>
